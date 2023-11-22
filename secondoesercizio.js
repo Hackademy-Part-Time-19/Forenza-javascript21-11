@@ -32,7 +32,7 @@ console.log (listaFiltrata)
 
 
 
-function Filtra(lista, prezzoMinimo) {
+function Filtra(lista) {
     let listaFiltrata1 =[];
 
     for (let i = 0; i < listaProdotti.length; i++){
@@ -44,7 +44,7 @@ function Filtra(lista, prezzoMinimo) {
     return listaFiltrata1
     
 }
-let listaFiltrata1= Filtra(listaProdotti, 250)
+let listaFiltrata1= Filtra(listaProdotti)
 
 
 console.log(listaFiltrata1)
